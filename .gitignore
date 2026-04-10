@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+
+# Coverage and generated reports
+coverage.out
+coverage.html
+
+# Temporary files
+*.tmp
+*.swp

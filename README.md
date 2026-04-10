@@ -1,5 +1,9 @@
 # Go 后端工程手册
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](./LICENSE)
+[![Language: Markdown](https://img.shields.io/badge/Language-Markdown-blue)](./README.md)
+[![Docs: 18 chapters](https://img.shields.io/badge/Docs-18%20chapters-orange)](./README.md)
+
 本手册是面向 Go 后端项目的通用工程标准，涵盖命名、设计、编码、测试、性能、可观测性等核心维度。
 
 适用对象：
@@ -14,6 +18,12 @@
 - 测试、错误处理、性能、可观测性
 - 质量门禁、重构流程、综合检查清单
 - 中文技术文档与工程写作规范
+
+快速入口：
+
+- 从 [README.md](./README.md) 的文档索引按主题阅读
+- 新团队落地时，优先阅读 [02-design-principles.md](./02-design-principles.md)、[03-coding-checklist.md](./03-coding-checklist.md)、[04-testing-standards.md](./04-testing-standards.md) 和 [13-quality-gates.md](./13-quality-gates.md)
+- 做文档治理时，配合 [10-documentation-standards.md](./10-documentation-standards.md) 和 [10A-chinese-writing-style.md](./10A-chinese-writing-style.md) 使用
 
 ## 文档索引
 
@@ -46,3 +56,11 @@
 ## 适用范围
 
 本手册适用于所有 Go 后端项目的开发、重构和 Code Review，是团队统一的工程质量标准。
+
+## 贡献方式
+
+欢迎通过 Issue 或 Pull Request 持续完善本手册。提交前请先阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+## 许可协议
+
+本文档采用 [CC BY 4.0](./LICENSE) 许可协议发布。
